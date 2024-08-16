@@ -1,0 +1,11 @@
+# input in Golang 
+## input use package "fmt"
+```go
+package main
+import "fmt"
+func main(){
+    var n
+    fmt.Scan(&n) //первый способ
+    fmt.Println(n)
+}
+```
